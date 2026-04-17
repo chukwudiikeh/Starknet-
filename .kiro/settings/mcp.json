@@ -1,0 +1,26 @@
+{
+  "mcpServers": {
+    "fetch": {
+      "command": "uvx",
+      "args": ["mcp-server-fetch"],
+      "env": {},
+      "disabled": false,
+      "autoApprove": []
+    },
+    "starknet": {
+      "command": "node",
+      "args": ["/workspaces/Starknet-/starknet-agentic/packages/starknet-mcp-server/dist/index.js"],
+      "env": {
+        "STARKNET_RPC_URL": "https://starknet-sepolia.g.alchemy.com/starknet/version/rpc/v0_10/Kt4UE9JGxg8btn6ftlYcL",
+        "STARKNET_ACCOUNT_ADDRESS": "0x04C6e22cEC1f6b4Cb9eA778A61E5f15aE99B69A8C9EB816b70882222138aDb8D",
+        "STARKNET_PRIVATE_KEY": "0x00003f6cf815e06eaaca1b3e77d0872f62091882e2b8bd6d3a3cd70c68c13ef7"
+      }
+    }
+
+
+
+
+
+
+  }
+}
