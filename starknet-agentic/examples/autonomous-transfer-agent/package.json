@@ -1,0 +1,13 @@
+{
+  "name": "autonomous-transfer-agent",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node index.mjs",
+    "dev": "node --watch index.mjs"
+  },
+  "dependencies": {
+    "dotenv": "^17.3.1",
+    "starknet": "^9.4.2"
+  }
+}
