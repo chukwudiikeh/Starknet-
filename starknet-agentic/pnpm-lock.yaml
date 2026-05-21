@@ -16,6 +16,10 @@ overrides:
 importers:
 
   .:
+    dependencies:
+      starknet:
+        specifier: ^9.4.2
+        version: 9.4.2(typescript@5.9.3)(zod@4.3.6)
     devDependencies:
       '@changesets/cli':
         specifier: 2.30.0
@@ -209,7 +213,7 @@ importers:
         version: 17.3.1
       starkzap:
         specifier: ^1.0.0
-        version: 1.0.0(typescript@5.9.3)
+        version: 1.0.0(typescript@5.9.3)(zod@4.3.6)
     devDependencies:
       tsx:
         specifier: ^4.7.0
@@ -8500,7 +8504,7 @@ snapshots:
       - typescript
       - zod
 
-  starkzap@1.0.0(typescript@5.9.3):
+  starkzap@1.0.0(typescript@5.9.3)(zod@4.3.6):
     dependencies:
       starknet: 9.4.2(typescript@5.9.3)(zod@4.3.6)
     transitivePeerDependencies:
